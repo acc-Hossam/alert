@@ -1,0 +1,39 @@
+$borderColor:rgb(255,25,0,0.322);
+$errorBg:rgb(192 29 29 / 15%);
+
+.type{
+    border: 5px dotted $borderColor ;
+    border-radius: 0.8rem;
+    padding: 1.3rem;
+
+}
+
+
+.alert-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid;
+    // flex-direction: row;
+    // justify-content: space-between;
+}
+span{
+    // border-bottom: 2px solid;
+    padding: 6px;
+    
+}
+
+p{
+    padding: 10px;
+}
+
+.close{
+    cursor: pointer;
+    border-bottom: 2px solid;
+}
+
