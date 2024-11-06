@@ -23,6 +23,9 @@ export default tseslint.config({
     },
   },
 })
+
+dsdsds
+
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
